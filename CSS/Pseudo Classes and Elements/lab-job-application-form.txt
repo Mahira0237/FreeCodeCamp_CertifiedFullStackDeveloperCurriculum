@@ -1,0 +1,73 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link href="styles.css" rel="stylesheet">    
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input type="text" id="name">
+            <input type="email" id="email">
+            <select id="position">
+                <option>Manager</option>
+<option>Sr. Manager</option>
+            </select>
+                                <fieldset class="radio-group"  name="availability"> 
+            <input type="radio" name="availability" id="Op1">
+            <label for="Op1">Full-Time</label>
+            <input type="radio" name="availability" id="Op2">
+            
+            <label for="Op2">Part-Time</label>
+            </fieldset>
+            <textarea id="message"></textarea>
+            <button type="submit">   
+        </form>
+    </div>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+input:focus,textarea:focus {
+  border-color: blue;
+}
+
+input:invalid, select:invalid,textarea:invalid {
+  border-color: red;
+}
+
+
+input:valid,select:valid,textarea:valid {
+  border-color: green;
+}
+
+button:hover {
+  background-color: pink;
+}
+.radio-group input[type="radio"]:checked {
+  border-color:grey;
+  background-color:orange;
+   box-shadow:0 0 0 white;
+ }
+
+.radio-group input[type="radio"]:checked + label {
+  color: green;
+ }
+
+input:first-of-type {
+  color:yellow;
+}
+
+
+
+
+
+** end of undefined **
+

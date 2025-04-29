@@ -1,0 +1,61 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="form-container">
+    <form>
+    <h2>Contact Form</h2>
+    <label for="name">Name
+    <input type="text" id="name" name="personal-information" required></label>
+    <label for="email">Email:
+    <input type="email" id="email" name="personal-information" required></label>
+    <label for="info">
+    <textarea id="info" name="personal information" required>
+    </textarea>
+    <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+.form-container {
+  background-color:#cfcfcf;
+  border-radius:2px;
+  padding: 10px;
+  width:100%;
+}
+
+label {
+  margin:auto;
+  color:#0e0e0e;
+}
+
+input,textarea {
+  width:100%;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+button {  background-color:#cccccc;
+font-size:12px;
+}
+
+button:hover {
+  background-color:#222222;
+}
+
+** end of undefined **
+

@@ -1,0 +1,72 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="newspaper">
+    <h1 class="name">Daily News
+    </h1>
+    <div class="date">5 May 2025
+    </div>
+    <div class="headline">Headline
+    </div>
+    <div class="sub-headline">Sub-Headline
+    </div>
+  <div class="author">Author
+  </div>
+  <p class="text">Paragraph 1
+  </p>
+  <p class="text">Paragraph 2
+  </p>
+  </div>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  font-size:24px;
+}
+.newspaper {
+  font-size:16px;
+  font-family:'Open Sans', sans-serif;
+}
+.name {
+  font-size:2rem;
+  font-family:'Times New Roman', serif;
+  text-transform:uppercase;
+}
+.author {
+  text-transform:uppercase;
+  font-weight:bold;
+}
+.headline {
+  font-size:2em;
+  font-weight:bold;
+}
+.sub-headline {
+  font-weight:100;
+  font-size:1.5em;
+  font-style:italic;
+}
+.text {
+  text-indent:20px;
+  line-height:2em;
+}
+.text::first-letter {
+  font-weight:bold;
+  font-size:2em;
+}
+
+
+
+** end of undefined **
+

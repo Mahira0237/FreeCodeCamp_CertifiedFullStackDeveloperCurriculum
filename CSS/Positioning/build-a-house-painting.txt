@@ -1,0 +1,78 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Painting</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+<div id="house">
+    <div id="roof"></div>
+    <div id="chimney"></div>
+    <div id="window-1"></div>
+    <div id="window-2"></div>
+    <div id="door"></div>
+</div>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#house {
+  position:relative;
+  width:500px;
+  height:400px;
+  background-color:skyblue;
+  border:2px solid black;
+}
+#roof {
+  
+  position:absolute;background-color:brown;
+  border:chocolate;
+  width:500px;
+  height:150px;
+  top:0;
+}
+#chimney {
+  position:absolute;background-color:grey;
+  border:grey;
+  width:50px;
+  height:100px;
+  top:-100px;
+  z-index:-1;
+}
+#window-1 {
+  position:absolute;background-color:#fcfcac;
+  border:grey;
+  width:150px;
+  height:80px;
+  top:200px;
+  left:40px;
+}
+#window-2 {
+  position:absolute;background-color:#fcfcac;
+  border:grey;
+  width:150px;
+  height:80px;
+  top:200px;
+  right:40px;
+}
+#door {
+  position:absolute;background-color:blue;
+  border:grey;
+  width:80px;
+  height:150px;
+  bottom:0; 
+  left:210px; 
+}
+
+
+
+
+** end of undefined **
+

@@ -1,0 +1,61 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css"
+  </head>
+
+<body>
+<header id="header">
+  <img id="header-img" src="https://www.freepik.com/free-vector/bird-colorful-gradient-design-vector_35322171.htm#from_element=detail_alsolike"></img>
+  <nav id="nav-bar">
+    <a class="nav-link"href="#Features">Features</a>
+    <a class="nav-link"href="#How_it_works">How It Works</a>
+    <a class="nav-link"href="#Pricing">Pricing</a>
+    <video id="video" src="https://www.freepik.com/free-video/adorable-dendrocopos-major-bird-sitting-tree-trunk-nature_1702709#fromView=search&page=1&position=8&uuid=fedd923b-4d4d-44e0-b574-029a3b129877"></video>
+  </nav>
+</header>
+ <section id="Features"></section>
+ <section id="How_it_works"></section>
+ <section id="Pricing"></section>
+  <form action="https://www.freecodecamp.org/email-submit" id="form">
+    <input name="email" id="email" placeholder="freecodecamp@hotmail.com" type="email">
+    <input id="submit" type="submit"
+  </form>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-bar a.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  #nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+** end of styles.css **
+

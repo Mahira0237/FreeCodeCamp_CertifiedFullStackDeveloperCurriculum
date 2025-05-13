@@ -1,0 +1,105 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Availability Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ <table>
+    <tr>
+    <th>Time</th>
+    <th>Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    </tr>
+    <tr class="sharp">
+        <th class="time">1PM</th>
+        <td class="available-0"></td>
+        <td class="available-3"></td>
+    </tr>
+    <tr class="sharp">
+        <th class="time">2PM</th>
+        <td class="available-2"></td>
+        <td class="available-1"></td>
+    </tr>
+    <tr class="half">
+        <th class="time">3PM</th>
+        <td class="available-3"></td>
+        <td class="available-4"></td>
+    </tr>
+    <tr class="half">
+        <th class="time">4PM</th>
+        <td class="available-1"></td>
+        <td class="available-5"></td>
+    </tr>
+ </table>
+    <div id="legend"><span>Availability </span>
+    <div id="legend-gradient"></div></div>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+:root {
+  --color0:#0000ff;
+  --color1:#000089;
+  --color2:#0000af;
+  --color3:#0000aa;
+  --color4:#000067;
+  --color5:#000023;
+  --solid-border: #afefef;      --dashed-border:grey;
+}
+.available-0 {
+  background-color:var(--color0);
+}
+.available-1 {
+  background-color:var(--color1);
+}
+.available-2 {
+  background-color:var(--color2);
+}
+.available-3 {
+  background-color:var(--color3);
+}
+.available-4 {
+  background-color:var(--color4);
+}
+.available-5 {
+  background-color:var(--color5);
+}
+.sharp td {
+  border-bottom: var(--solid-border);
+}
+.half td {
+  border-bottom:var(--dashed-border);
+}
+#legend-gradient {
+  width: 75%;
+  height: 15px;
+  background-image: linear-gradient(
+     
+    var(--color0) 2% 16%,  
+    var(--color1) 16% 33%,  
+    var(--color2) 33% 49%,  
+    var(--color3) 49% 66%,  
+    var(--color4) 66% 83%,  
+    var(--color5) 83% 100%
+  );
+}
+
+
+** end of styles.css **
+

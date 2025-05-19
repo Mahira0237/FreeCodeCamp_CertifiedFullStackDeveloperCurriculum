@@ -1,0 +1,21 @@
+** start of script.js **
+
+console.log("Hello! I'm your coding fun fact guide!");
+let botName="Siri";
+let botLocation="USA";
+let favoriteLanguage="Python";
+console.log("My name is " + botName + " and I live on " + botLocation +".");
+console.log("My favorite programming language is " + favoriteLanguage + ".");
+let codingFact;
+codingFact="The name " +  favoriteLanguage + " was chosen by its creator, Guido van Rossum, in reference to the British comedy group Monty Python."
+console.log(codingFact);
+codingFact="Tim Peters wrote a poem, known as the Zen of Python, which outlines " + favoriteLanguage + "'s design philosophy. ";
+console.log(codingFact);
+codingFact=favoriteLanguage + " supports both object-oriented and procedure-oriented programming.";
+console.log(codingFact);
+console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " +  botLocation + ".")
+
+
+
+** end of script.js **
+

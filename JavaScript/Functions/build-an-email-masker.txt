@@ -1,0 +1,18 @@
+** start of script.js **
+
+function maskEmail(email){
+  let part1=email.slice(0,1);
+  let part2=email.slice((email.indexOf("@"))-1);
+  let part3=email.slice(1,((email.length)-part2.length));
+  let hide="*";
+  hide=hide.repeat(part3.length);
+  return (part1 + hide + part2);
+}
+
+let email = "apple.pie@email.com";
+console.log(maskEmail(email));
+email="freecodecamp@example.com";
+console.log(maskEmail(email));
+
+** end of script.js **
+

@@ -1,0 +1,62 @@
+** start of script.js **
+
+const questions=[];
+const question1 = {
+  category:"easy",
+  question:"How many days in a week?",
+  choices:["5","7","8"],
+  answer:"7",
+}
+const question2 = {
+  category:"easy",
+  question:"How many days in a week?",
+  choices:["5","7","8"],
+  answer:"7",
+}
+const question3 = {
+  category:"easy",
+  question:"How many days in a week?",
+  choices:["5","7","8"],
+  answer:"7",
+}
+const question4 = {
+  category:"easy",
+  question:"How many days in a week?",
+  choices:["5","7","8"],
+  answer:"7",
+}
+const question5 = {
+  category:"easy",
+  question:"How many days in a week?",
+  choices:["5","7","8"],
+  answer:"7",
+}
+questions.push(question1,question2,question3,question4,question5);
+let num=Math.floor(Math.random()*5);
+function getRandomQuestion(questions) {
+  let cQuestion=questions[num];
+  return cQuestion;
+}
+let choice=getRandomQuestion(questions).choices;
+function getRandomComputerChoice(choice) {
+  let num2=Math.floor(Math.random()*3);
+  let cChoice=choice[num2];
+  return cChoice;
+}
+
+function getResults(cQuestion,cChoice) {
+  let answer=cQuestion.answer;
+  if (cChoice===answer) {
+    return "The computer's choice is correct!"
+  }
+  else {
+    return "The computer's choice is wrong. The correct answer is: " + answer
+  }
+}
+console.log(getResults(questions,choice));
+
+
+
+
+** end of script.js **
+
